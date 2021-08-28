@@ -1,0 +1,23 @@
+{
+  "name": "mengxuegu-blog-web",
+  "version": "1.0.0",
+  "description": "博客门户网站",
+  "author": "mengxuegu",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev nuxt",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=prod nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.2",
+    "cookie-universal-nuxt": "^2.1.4",
+    "element-ui": "^2.14.0",
+    "mavon-editor": "^2.9.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
